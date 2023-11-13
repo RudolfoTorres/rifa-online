@@ -54,7 +54,6 @@ header {
 .mobile-menu .nav-item {
     display: block;
     padding-top: 2.5rem;
-   
 }
 
 .nav-link {
@@ -93,10 +92,6 @@ header {
 
 .login-button button a i {
     padding-right: 1rem;
-}
-
-.open {
-    display: block;
 }
 
 @media screen and (max-width: 730px) {
