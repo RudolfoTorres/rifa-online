@@ -53,18 +53,33 @@ header {
 
 .mobile-menu .nav-item {
     display: block;
-    padding-top: 2.5rem;
+    padding-top: 2rem;
 }
 
 .nav-link {
+    display: grid;
+    grid-template-columns: 35% 65%;
     text-decoration: none;
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
 }
 
+hr {
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 1rem;
+}
+
 .mobile-menu .nav-item i {
     padding-right: 1rem;
+    text-align: right;
+}
+
+.mobile-menu .nav-item p {
+    text-align: left;
+    margin-left: 2rem;
 }
 
 .mobile-menu .login-button {
@@ -99,5 +114,14 @@ header {
         justify-content: space-around;
         padding: 0;
         margin: 0;
+    }
+
+    hr {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .mobile-menu .nav-item i {
+        padding-left: 0;
     }
 }
