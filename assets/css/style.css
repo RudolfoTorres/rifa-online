@@ -44,7 +44,13 @@ header {
 }
 
 .mobile-menu-icon {
-    display: block;
+    display: flex;
+}
+
+.mobile-menu-icon i {
+    color: white;
+    font-size: x-large;
+    padding-right: 1rem;
 }
 
 .mobile-menu-icon button {
