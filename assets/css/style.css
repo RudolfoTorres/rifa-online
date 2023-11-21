@@ -145,8 +145,14 @@ hr {
 
 .content-wrap {
     width: 40%;
+    margin-top: 120px;
+    padding: 30px;
     border-radius: 30px;
     background-color: lightgray;
     box-shadow: 0px 3px 3px #E4E4E4;
     height: 600px;
+}
+
+.destaque-title i {
+    color: #FC8B3F;
 }
