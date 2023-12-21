@@ -166,6 +166,7 @@ hr {
     display: grid;
     background-color: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 0px 1px 10px #464646;
 }
 
 .main-card .main-img {
@@ -176,11 +177,11 @@ hr {
     border-radius: 20px 20px 0 0;
 }
 
-.main-card .main-infos {
+.main-card .infos {
     padding: .5rem;
 }
 
-.main-card .main-infos p {
+.main-card .infos p {
     font-size: .8rem;
     color: #464646;
 }
@@ -188,13 +189,13 @@ hr {
 .box-green {
     background-color: green;
     padding: .3rem;
-    margin: 0 0 .5rem .5rem;
+    margin-top: .3rem;
     border-radius: .8rem;
     width: 30%;
     text-align: center;
 }
 
-.box-text {
+.main-card .infos .box-green .box-text {
     color: #FFFFFF;
     font-size: .8rem;
 }
@@ -206,6 +207,11 @@ hr {
     50% {
       opacity: 0.0;
     }
+}
+
+.second-card {
+
+    
 }
 
 /* MEDIA QUERIES */
@@ -239,7 +245,7 @@ hr {
         height: 220px;
     }
 
-    .main-card .main-infos p {
+    .main-card .infos p {
         font-size: .6rem;
     }
 
