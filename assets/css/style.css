@@ -162,14 +162,23 @@ hr {
     color: #464646;
 }
 
-.main-card {
-    display: grid;
+.card {
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0px 1px 10px #464646;
+    margin-bottom: .5rem;
 }
 
-.main-card .main-img {
+.main-container {
+    display: grid;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.main-img {
     background-image: url(/assets/img/cegonha.jpeg);
     background-size: cover;
     background-position: center;
@@ -177,11 +186,21 @@ hr {
     border-radius: 20px 20px 0 0;
 }
 
-.main-card .infos {
+.second-img {
+    background-image: url(/assets/img/dindin.png);
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    margin: .5rem;
+    border-radius: 20px;
+
+}
+
+.card .infos {
     padding: .5rem;
 }
 
-.main-card .infos p {
+.card .infos p {
     font-size: .8rem;
     color: #464646;
 }
@@ -195,7 +214,7 @@ hr {
     text-align: center;
 }
 
-.main-card .infos .box-green .box-text {
+.card .infos .box-green .box-text {
     color: #FFFFFF;
     font-size: .8rem;
 }
@@ -207,11 +226,6 @@ hr {
     50% {
       opacity: 0.0;
     }
-}
-
-.second-card {
-
-    
 }
 
 /* MEDIA QUERIES */
@@ -241,11 +255,11 @@ hr {
         font-size: .8rem;
     }
 
-    .main-card .main-img {
+    .card .main-img {
         height: 220px;
     }
 
-    .main-card .infos p {
+    .card .infos p {
         font-size: .6rem;
     }
 

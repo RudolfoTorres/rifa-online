@@ -11,4 +11,21 @@ $(document).ready(function(){
             $(".mobile-menu").slideUp("slow");
         }
     });
+
+    var blocoSecondCard = "<div class='card'>"+
+                                "<div class='second-container'>"+
+                                    "<div class='second-img'></div>"+
+                                    "<div class='infos'>"+
+                                        "<h4>EDIÇÃO MILIONÁRIA</h4>"+
+                                        "<p>NA PROMO R$2,49 = CARRETA + CEGONHA + 10 CARROS</p>"+
+                                        "<div class='box-green blink'>"+
+                                            "<p class='box-text'>Corre que está acabando!</p>"+
+                                        "</div>"+
+                                    "</div>"+
+                                "</div>"+
+                            "</div>";
+
+    for (i=0;i<=2;i++) {
+        document.getElementById("content-wrap").innerHTML += blocoSecondCard;
+    }
 });
