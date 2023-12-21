@@ -179,7 +179,7 @@ hr {
 }
 
 .main-img {
-    background-image: url(/assets/img/cegonha.jpeg);
+    background-image: url(../img/cegonha.jpeg);
     background-size: cover;
     background-position: center;
     height: 280px;
@@ -187,7 +187,7 @@ hr {
 }
 
 .second-img {
-    background-image: url(/assets/img/dindin.png);
+    background-image: url(../img/dindin.png);
     background-size: cover;
     background-position: center;
     height: 120px;
