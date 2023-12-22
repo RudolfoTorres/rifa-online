@@ -25,7 +25,7 @@ $(document).ready(function(){
                                 "</div>"+
                             "</div>";
 
-    for (i=0;i<=2;i++) {
+    for (i=0;i<6;i++) {
         document.getElementById("content-wrap").innerHTML += blocoSecondCard;
     }
 });
