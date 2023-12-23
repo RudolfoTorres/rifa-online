@@ -16,10 +16,10 @@ $(document).ready(function(){
                                 "<div class='second-container'>"+
                                     "<div class='second-img'></div>"+
                                     "<div class='infos'>"+
-                                        "<h4>EDIÇÃO MILIONÁRIA</h4>"+
-                                        "<p>NA PROMO R$2,49 = CARRETA + CEGONHA + 10 CARROS</p>"+
+                                        "<h4>60 MIL NA SUA CONTA!</h4>"+
+                                        "<p>$0,15= $60.000,00 na sua conta.</p>"+
                                         "<div class='box-green blink'>"+
-                                            "<p class='box-text'>Corre que está acabando!</p>"+
+                                            "<p class='box-text'>Adquira já!</p>"+
                                         "</div>"+
                                     "</div>"+
                                 "</div>"+
