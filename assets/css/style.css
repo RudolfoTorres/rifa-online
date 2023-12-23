@@ -134,7 +134,7 @@ hr {
     justify-content: center;
 }
 
-.content-wrap {
+.content-wrap, .content-wrap-bottom {
     width: 40%;
     margin-top: 120px;
     padding: 30px;
@@ -187,14 +187,19 @@ hr {
     border-radius: 20px 20px 0 0;
 }
 
-.second-img {
+.second-img, .second-img-ganhadores {
     background-image: url(../img/dindin.png);
     background-size: cover;
     background-position: center;
     height: 120px;
     margin: .5rem;
     border-radius: 20px;
+}
 
+.second-img-ganhadores {
+    background-image: url(../img/sem-foto.jpg);
+    border-color: green;
+    border-style: solid;
 }
 
 .fale-conosco {
@@ -229,6 +234,11 @@ hr {
 .card .infos p {
     font-size: .8rem;
     color: #464646;
+}
+
+.card .infos p span {
+    font-size: .8rem;
+    font-weight: 1000;
 }
 
 .box-green {
@@ -272,7 +282,7 @@ hr {
         padding-left: 0;
     }
 
-    .content-wrap {
+    .content-wrap, .content-wrap-bottom {
         width: 70%;
         margin-top: 60px;
     }

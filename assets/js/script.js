@@ -28,4 +28,21 @@ $(document).ready(function(){
     for (i=0;i<6;i++) {
         document.getElementById("content-wrap").innerHTML += blocoSecondCard;
     }
+
+    var blocoSecondCardGanhadores = "<div class='card'>"+
+                                        "<div class='second-container'>"+
+                                            "<div class='second-img-ganhadores'></div>"+
+                                            "<div class='infos'>"+
+                                                "<h4>José Carlos de Souza</h4>"+
+                                                "<p>30 MIL NO PIX!</p>"+
+                                                "<p>Número da Sorte: <span>123456</span></p>"+
+                                                "<p>Data da Premisção: <span>31/12/2023</span></p>"+
+                                                "</div>"+
+                                            "</div>"+
+                                        "</div>"+
+                                    "</div>";
+
+    for (i=0;i<4;i++) {
+        document.getElementById("content-wrap-bottom").innerHTML += blocoSecondCardGanhadores;
+    }
 });
