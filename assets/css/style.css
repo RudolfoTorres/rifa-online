@@ -285,6 +285,10 @@ hr {
         height: 220px;
     }
 
+    .card .infos {
+        margin-top: 1rem;
+    }
+
     .card .infos p {
         font-size: .6rem;
     }
