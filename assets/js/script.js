@@ -45,4 +45,19 @@ $(document).ready(function(){
     for (i=0;i<4;i++) {
         document.getElementById("content-wrap-bottom").innerHTML += blocoSecondCardGanhadores;
     }
+
+    var btn = $("#back-to-top");
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if(scroll > 0) {
+            $('#back-to-top').removeClass('mostra');
+        } else {
+            $('#back-to-top').addClass('mostra');
+        }
+    });
+
+    btn.click(function() {
+        $('html, body').animate({scrollTop:0}, 'slow');
+    });
 });
