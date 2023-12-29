@@ -69,7 +69,7 @@ header {
 
 .mobile-menu .nav-item {
     display: block;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .nav-link {
@@ -123,6 +123,23 @@ hr {
 
 .login-button button a i {
     padding-right: 1rem;
+}
+
+.redes-sociais {
+    display: flex;
+    color: #F1F1F1;
+    align-items: end;
+    justify-content: end;
+}
+
+.redes-sociais i, p {
+    margin: 0 1rem;
+    font-size: large;
+}
+
+.redes-sociais i:hover {
+    color: gray;
+    cursor: pointer;
 }
 
 /* content */
@@ -270,15 +287,17 @@ hr {
     right: 50px;
     padding: 1rem;
     border-radius: 50%;
-    border-color: green;
-    box-shadow: 0px 1px 10px #464646;
+    border: none;
+    background-color: green;
+    box-shadow: 2px 2px 2px #464646;
     cursor: pointer;
+    opacity: .9;
 }
 
 
 #back-to-top i {
     font-size: x-large;
-    color: green;
+    color: lightgrey;
 }
 
 .mostra {
@@ -297,6 +316,10 @@ hr {
     hr {
         width: 70%;
         margin-left: 15%;
+    }
+
+    .mobile-menu .nav-item {
+        padding-top: 1.8rem;
     }
 
     .mobile-menu .nav-item i {
